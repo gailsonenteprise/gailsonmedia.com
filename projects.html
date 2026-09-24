@@ -8,40 +8,45 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
 <header class="site-header">
   <div class="container nav">
     <a class="brand" href="index.html" aria-label="Gailson Media LLC home">
-      <span class="brand-mark">GM</span>
-      <span>Gailson Media LLC</span>
+      <img class="brand-logo" src="assets/gailson-media-logo.svg" alt="Gailson Media LLC logo">
+      <span class="brand-stack"><strong>Gailson Media LLC</strong><small>Media • Technology • Digital Products</small></span>
     </a>
     <nav class="nav-links" aria-label="Primary navigation">
-      <a href="index.html" class="">Home</a>
-      <a href="projects.html" class="active">Projects</a>
-      <a href="contact.html" class="">Contact Us</a>
+      <a href="index.html">Home</a><a href="projects.html" class="active">Projects</a><a href="contact.html">Contact Us</a>
     </nav>
   </div>
 </header>
-
 <main>
   <section class="page-hero">
     <div class="container">
       <div class="eyebrow">Projects</div>
       <h1>Products and properties built by Gailson Media LLC.</h1>
       <p class="lead">Our work spans interactive entertainment, digital products, and creative media.</p>
+      <div class="feature-banner">
+        <img src="https://spadesuniverse.app/assets/hero-logo.png" alt="Spades Universe splash logo">
+      </div>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <div class="grid">
+      <div class="project-showcase">
+        <div class="project-media">
+          <img src="https://spadesuniverse.app/assets/hero-logo.png" alt="Spades Universe featured project artwork">
+        </div>
         <article class="card project-card">
-          <div class="kicker">Interactive Entertainment</div>
+          <div class="kicker">Featured Project</div>
           <h3>Spades Universe</h3>
-          <p>A modern Spades experience built around competitive play, community features, progression, and multiplayer gameplay across supported platforms.</p>
+          <p>A modern Spades experience built around competitive play, learning, community features, progression, and multiplayer gameplay across supported platforms.</p>
+          <p class="small">Spades Universe is the flagship interactive entertainment project currently featured by Gailson Media LLC.</p>
           <a class="project-link" href="https://spadesuniverse.app" target="_blank" rel="noopener">Visit Spades Universe →</a>
         </article>
+      </div>
 
+      <div class="grid">
         <article class="card project-card">
           <div class="kicker">Digital Media</div>
           <h3>Creative & Media Properties</h3>
@@ -55,17 +60,22 @@
           <p>Additional technology and entertainment projects are in development and will be added here as they become publicly available.</p>
           <span class="project-link">In development.</span>
         </article>
+
+        <article class="card project-card">
+          <div class="kicker">Organization</div>
+          <h3>Gailson Media LLC</h3>
+          <p>Our organization website serves as the central hub for company information, current initiatives, and contact details.</p>
+          <a class="project-link" href="contact.html">Contact Gailson Media LLC →</a>
+        </article>
       </div>
     </div>
   </section>
 </main>
-
 <footer>
   <div class="container footer-row">
     <span>© 2026 Gailson Media LLC. All rights reserved.</span>
     <span>Media • Technology • Digital Products</span>
   </div>
 </footer>
-
 </body>
 </html>
